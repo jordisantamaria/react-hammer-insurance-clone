@@ -1,3 +1,45 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+  @font-face {
+    font-family: 'NunitoSans';
+    font-style: normal;
+    font-weight: 400;
+    src: url('/Nunito_Sans/NunitoSans-Regular.ttf');
+  }
+
+body {
+  color: #095590;
+  font-family: 'NunitoSans';
+}
+
+
+
+
+.filter-primary {
+  filter: invert(23%) sepia(70%) saturate(1492%) hue-rotate(184deg) brightness(92%) contrast(96%);
+}
+
+.filter-primary-light {
+  filter: invert(72%) sepia(40%) saturate(4245%) hue-rotate(180deg) brightness(96%) contrast(86%);
+}
+
+.filter-link-white {
+  filter: invert(92%) sepia(4%) saturate(1496%) hue-rotate(178deg) brightness(97%) contrast(101%);
+}
+
+.filter-yellow {
+  filter: invert(85%) sepia(100%) saturate(514%) hue-rotate(333deg) brightness(94%) contrast(94%);
+}
+
+.select svg {
+  transition: transform 0.3s;
+}
+.select:hover svg:last-child {
+  transform: rotate(180deg);
+}
+
+.bg-primary-light {
+  background: #59A5E3;
+}
