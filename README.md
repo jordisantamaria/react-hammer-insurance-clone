@@ -7,7 +7,7 @@ This is a clone of https://www.hammerinsurance.com/ landing page on desktop.
 
 This project has been done on around 4 hours, as a request from a freelance client.
 
-### ✨ [Demo](https://react-chat-lake.vercel.app/)
+### ✨ [Demo](https://hammer-insurance-clone-51j0xu5dh-jordisantamaria.vercel.app/)
 
 
 ## Install
@@ -26,7 +26,7 @@ npm run dev
 
 Deploy this project on Vercel in one click:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/jordisantamaria/react-chat)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/jordisantamaria/hammer-insurance-clone)
 
 ## Author
 
