@@ -1,38 +1,45 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Welcome to Hammer-insurance clone 👋
 
-## Getting Started
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](#)
+[![Twitter: JordiSantamar1a](https://img.shields.io/twitter/follow/JordiSantamar1a.svg?style=social)](https://twitter.com/JordiSantamar1a)
 
-First, run the development server:
+This is a clone of https://www.hammerinsurance.com/ landing page on desktop.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+This project has been done on around 4 hours, as a request from a freelance client.
+
+### ✨ [Demo](https://react-chat-lake.vercel.app/)
+
+
+## Install
+
+```sh
+npm install
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Usage
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+```sh
+npm run dev
+```
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+### Deploy to Vercel
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Deploy this project on Vercel in one click:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/jordisantamaria/react-chat)
 
-## Learn More
+## Author
 
-To learn more about Next.js, take a look at the following resources:
+👤 **Jordi Santamaria**
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Twitter: [@JordiSantamar1a](https://twitter.com/JordiSantamar1a)
+- Github: [@jordisantamaria](https://github.com/jordisantamaria)
+* LinkedIn: [@jordi-santamaria-portoles-8b14818b](https://www.linkedin.com/in/jordi-santamaria-portoles-8b14818b/)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Show your support
 
-## Deploy on Vercel
+Give a ⭐️ if this project helped you!
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

@@ -22,32 +22,32 @@ export const Hero = () => {
           <div className="absolute right-0 top-0 w-[44%]">
             <img src="/img/carCollageBg2.png " className="absolute z-[-1]" />
           </div>
-          <img src="/img/carCollage.png" className=""/>
+          <img src="/img/carCollage.png" className="" />
 
         </div>
       </div>
       <div className="flex justify-center items-center gap-6">
         <div className="flex items-center">
           <span className="font-black text-[17px] mr-2">4.9</span>
-          {[1,2,3,4,5].map(() => (
-            <Star className="filter-yellow"/>
+          {[1, 2, 3, 4, 5].map((item) => (
+            <Star key={item} className="filter-yellow" />
           ))}
           <span className="text-[10px] font-semibold ml-2">(525 Reviews de Clientes)</span>
         </div>
         <div className="flex gap-6">
           <LogosCard>
-            <GoogleLogo className="h-[35px]"/>
+            <GoogleLogo className="h-[35px]" />
           </LogosCard>
           <LogosCard>
-            <img src="/img/bbbImage.png" className="h-[35px]"/>
+            <img src="/img/bbbImage.png" className="h-[35px]" />
           </LogosCard>
           <LogosCard>
-            <YelpLogo className="h-[35px]"/>
+            <YelpLogo className="h-[35px]" />
           </LogosCard>
         </div>
-          <div className="absolute right-2 p-[20px] rounded-full shadow-sm flex justify-center items-center">
-            <Chat />
-          </div>
+        <div className="absolute right-2 p-[20px] rounded-full shadow-sm flex justify-center items-center">
+          <Chat />
+        </div>
       </div>
     </div>
   )

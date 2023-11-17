@@ -29,26 +29,25 @@ const cardList = [
   },
 ]
 
-export const Servicios = () => {
-  return  (
+export const Services = () => {
+  return (
     <div className="flex flex-col items-center">
       <h3 className="text-primary-light text-xl">Servicios</h3>
       <h2 className="text-[32px] font-black mb-[10px]">Tu agente cercano: en Hammer Insurance nadie se queda atras</h2>
       <p className="text-xl">En Hammer Insurance siempre hablamos tu idioma, conocemos tu comunidad, somos vecinos.</p>
       <div className="flex">
         {cardList.map((item) => (
-        <Card className="w-[236px] mb-[90px] mt-16 relative mr-16">
+          <Card key={item.title} className="w-[236px] mb-[90px] mt-16 relative mr-16">
             <h3 className="font-extrabold text-2xl mb-2">{item.title}</h3>
             <p className="text-sm h-[99px] mr-4">{item.description}</p>
             <Button variant="outlined" color="primary-light" className="text-xs h-[35px] my-6">
               Ver más
             </Button>
             <img src={item.image} className={`absolute z-[-1]   ${item.imgClassName}`} />
-        </Card>
-
+          </Card>
         ))}
       </div>
-      <Button className="mb-16" variant="outlined" color="primary-light" rightIcon={<ArrowRight className="filter-primary-light ml-4"/>}>Ver todos los servicios</Button>
+      <Button className="mb-16" variant="outlined" color="primary-light" rightIcon={<ArrowRight className="filter-primary-light ml-4" />}>Ver todos los servicios</Button>
     </div>
   )
 }
